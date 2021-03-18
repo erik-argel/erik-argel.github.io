@@ -143,10 +143,11 @@
     <div id="contact">
         <h2>Ponerse en contacto</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/mrgonoke">
-                <input type="hidden" name="_subject" value="Solicitud de contacto desde curriculum web" />
-                <input type="email" name="_replyto" placeholder="Tu Mail" required>
-                <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+            <!--<form method="POST" action="https://formspree.io/f/mrgonoke">-->
+	    <form>
+                <input type="hidden" name="subject" value="Solicitud de contacto desde curriculum web" />
+                <input type="email" name="from" placeholder="Tu Mail" required>
+                <textarea name="body" placeholder="Tu Mensaje" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </div>
